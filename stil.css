@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+  width: 70%;
+  max-height: 50%;
+}
+
+input{
+	font-size: 2em;
+	padding: 5px;
+}
+
+#knof{
+	width: auto;
+	padding: 5px;
+	color: black;
+	background-color: white;
+	border: solid #eee;
+	box-shadow: 5px 5px 5px grey;
+}
+
+#main{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 1fr 3fr 1fr;
+	width: 100vw;
+	height: 100vh;
+	grid-template-areas:
+	"t-left t-center t-right"
+	"m-left m-center m-right"
+	"b-left b-center b-right"
+}
+
+#logo{
+	grid-area: m-center;
+	}
