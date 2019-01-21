@@ -1,0 +1,2 @@
+# Boogle
+SmartNinja exercise
